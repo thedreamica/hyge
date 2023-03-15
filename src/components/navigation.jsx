@@ -21,7 +21,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <img className="logo" src="https://i.imgur.com/6cvD09t.png" />
+          <img className="logo" alt="logo" src="https://i.imgur.com/6cvD09t.png" />
         </div>
 
         <div
