@@ -3,12 +3,15 @@ import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
-  name: "",
-  email: "",
+  firstName: "",
+  lastName: "",
   message: "",
+  email: "",
+  phoneNumber: "+91",
+  message: ""
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ firstName, lastName, email, phoneNumber, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,7 +24,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+    console.log(firstName, lastName, email, phoneNumber, message);
     emailjs
       .sendForm(process.env.REACT_APP_EJS_SERVICE_ID, process.env.REACT_APP_EJS_TEMPLATE_ID, e.target, process.env.REACT_APP_EJS_PUBLIC)
       .then(
@@ -36,9 +39,9 @@ export const Contact = (props) => {
   };
   return (
     <div>
-      <div id="contact">
+      <div id="contact" className="content-fit">
         <div className="container">
-          <div className="col-md-8">
+          <div className="col-md-5">
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
@@ -53,16 +56,33 @@ export const Contact = (props) => {
                     <div className="form-group">
                       <input
                         type="text"
-                        id="name"
-                        name="name"
+                        id="firstName"
+                        name="firstName"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="First Name"
                         required
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
+                  <div className="col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      className="form-control"
+                      placeholder="Last name"
+                      required
+                      onChange={handleChange}
+                    />
+                    <p className="help-block text-danger"></p>
+                  </div>
+                </div>  
+                </div>
+                
+                <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
@@ -77,6 +97,21 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        className="form-control"
+                        placeholder="Phone number "
+                        required
+                        value={phoneNumber}
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
                 </div>
                 <div className="form-group">
                   <textarea
@@ -84,7 +119,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="How can we help you"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -97,12 +132,15 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+          <div className="col-md-4">
+
+          </div>
+          <div className="col-md-3 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Location
+                  <i className="fa fa-map-marker"></i> Address
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -140,7 +178,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

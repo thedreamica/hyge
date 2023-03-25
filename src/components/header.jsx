@@ -40,7 +40,7 @@ const StyledButton = styled.a`
 export const Header = ({ data = {} }) => {
   return (
     <header id="header">
-      <Carousel interval={4000} autoPlay infiniteLoop>
+      <Carousel interval={4000} autoPlay infiniteLoop showArrows={false} swipeable={false}>
         {
           data?.carousel?.map((item, index) => (
             <LocalContainer bg={item?.img}>
