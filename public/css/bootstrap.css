@@ -2549,7 +2549,8 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 52px;
+  border-radius: 12px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -2596,9 +2597,14 @@ fieldset[disabled] .form-control {
 }
 textarea.form-control {
   height: auto;
+  border-radius: 12px !important;
+}
+input {
+  border-radius: 12px !important;
 }
 input[type="search"] {
   -webkit-appearance: none;
+  border-radius: 12px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
@@ -4174,9 +4180,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
+.navbar-header {
+  width: 100%;
+}
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    width: auto;
   }
 }
 .navbar-collapse {
@@ -6463,8 +6473,6 @@ button.close {
 .clearfix:after,
 .dl-horizontal dd:before,
 .dl-horizontal dd:after,
-.container:before,
-.container:after,
 .container-fluid:before,
 .container-fluid:after,
 .row:before,
