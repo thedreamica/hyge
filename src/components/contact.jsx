@@ -7,8 +7,7 @@ const initialState = {
   lastName: "",
   message: "",
   email: "",
-  phoneNumber: "+91",
-  message: ""
+  phoneNumber: "+91"
 };
 export const Contact = (props) => {
   const [{ firstName, lastName, email, phoneNumber, message }, setState] = useState(initialState);
