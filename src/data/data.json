@@ -7,40 +7,40 @@
         "img": "https://i.imgur.com/BJXP6j6.jpg"
       },
       {
-        "title": "Transforming ideas into reality with expertise in services",
-        "paragraph": "Our expertise in the latest technological advancements, combined with our passion for problem-solving, allows us to provide tailored solutions to meet the unique needs of each client. We're committed to helping businesses stay ahead of the curve in today's rapidly evolving digital landscape",
+        "title": "Experts meets another experts",
+        "paragraph": "Our approach makes you feel – we are collaborating with an experienced service provider",
         "img": "https://i.imgur.com/3hCQGFr.jpg"
       },
       {
-        "title": "Transforming ideas into reality with expertise in services",
-        "paragraph": "Our expertise in the latest technological advancements, combined with our passion for problem-solving, allows us to provide tailored solutions to meet the unique needs of each client. We're committed to helping businesses stay ahead of the curve in today's rapidly evolving digital landscape",
+        "title": "We are experts in creating sustainable value to your resources",
+        "paragraph": "With proven technology and progressive works, we reduce your pressure and improve your growth in versatile.",
         "img": "https://i.imgur.com/YPcXHtb.jpg"
       },
       {
-        "title": "Transforming ideas into reality with expertise in services",
-        "paragraph": "Our expertise in the latest technological advancements, combined with our passion for problem-solving, allows us to provide tailored solutions to meet the unique needs of each client. We're committed to helping businesses stay ahead of the curve in today's rapidly evolving digital landscape",
+        "title": "We support people from all verticals",
+        "paragraph": "Think smarter, ease of collaboration, and drive faster with na set of modern dev services.",
         "img": "https://i.imgur.com/vdjEs0m.jpg"
       },
       {
-        "title": "Transforming ideas into reality with expertise in services",
-        "paragraph": "Our expertise in the latest technological advancements, combined with our passion for problem-solving, allows us to provide tailored solutions to meet the unique needs of each client. We're committed to helping businesses stay ahead of the curve in today's rapidly evolving digital landscape",
+        "title": "Improving coding accuracy: minimizes risk & optimizes revenue",
+        "paragraph": "We guarantee our coding accuracy so you can be sure your denials will be reduced, and your cash flow optimized.",
         "img": "https://i.imgur.com/WzFoD2S.jpg"
       }
     ]
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Hyge engages with software services and solutions that empower companies to create interactive content with greater ease and efficiency, driving customer engagement to next levels of growth. Our primary vision is to enroute our patrons to have good result in what they primarily proposed for. If you're looking for a reliable partner to help you develop your software solution, look no further than Hyge. Contact us today to learn more about our services and how we can help you achieve your business goals.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Optimized & Customizable solutions",
+      "Fascinated and experienced experts",
+      "Synchronized with trending technologies",
+      "Precise designing at the ease"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Well cherished guidance",
+      "Customer-Centric approach",
+      "Quick turn-around time",
+      "Endorsing your ideas"
     ]
   },
   "Gallery": [
@@ -94,64 +94,64 @@
     {
       "icon": "fa fa-wordpress",
       "name": "Medical coding",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "One of the finest firms in the list of organizations that providing medical coding services to ensure accuracy in maintaining your health information is documented and coded efficiently."
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Software development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "We are experts in developing of software with scablable, resilient and long-term business value – tailored uniquely to your business processes and adjustable to future needs."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Dev-ops engineer",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Dev-ops",
+      "text": "Grow and make your valued innovations into digitial world with focussed approach of our professional experts guide the teams to leverage the benefits of the cloud in effective manner."
     },
     {
       "icon": "fa fa-language",
       "name": "Software testing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "We offering variety of software testing services & solutions as best in industry to work on your proposed product needs to ensure 100% error free and remarkable performance."
     },
     {
       "icon": "fa fa-solid fa-share",
       "name": "Digi-mark",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "We are specialized in delivering performance-driven, measurable results for our clients and we are well known for creative campaigns which often incorporate the latest technology."
     },
     {
       "icon": "fa fa-briefcase",
       "name": "Business development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Our expert specilists are always keen to help the clients in pursuing strategic opportunities by developing new products, entering into new markets and forming business partnerships."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"They showed a deep understanding of our business with timely solutions. they are always available to answer any questions or concerns we may have\"",
+      "name": "John Abraham"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"This team always meets our deadlines, and their coding services are top-notch. It's such a relief to have a partner we can trust when it comes to medical coding.\"",
+      "name": "Chris Johnathan"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Hyge has a team of highly skilled DevOps engineers who provided us with exceptional service. Their professionalism improves the overall efficiency of our systems.\"",
+      "name": "Rajesh Sourav"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"They made sure that our software was thoroughly tested and any issues were promptly addressed. We felt confident in their ability to deliver quality results.\"",
+      "name": "Rochak Shetty"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Hyge team has expertise in SEO, PPC, and social media marketing, and it has helped us to reach new audiences and drive more traffic to our website.\"",
+      "name": "Roshan Andrews"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Their team has helped me identify new business opportunities, and increase my revenue and I look forward to continuing our partnership in the years to come.\"",
+      "name": "Sanjay Kumar"
     }
   ],
   "Team": [
@@ -177,7 +177,7 @@
     }
   ],
   "Contact": {
-    "address": "dot cowork - Tidel Park, 1st Floor D Block (Module 115, 4, SH 49A, Tharamani, Chennai, Tamil Nadu 600113",
+    "address": "Dot Cowork - Tidel Park, 1st Floor D Block (Module 115, 4, SH 49A, Tharamani, Chennai - 600113",
     "phone": "+91 7092220001",
     "email": "admin@hygeinfotech.com",
     "facebook": "fb.com",

@@ -3,9 +3,12 @@ import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
-  name: "",
-  email: "",
+  firstName: "",
+  lastName: "",
   message: "",
+  email: "",
+  phoneNumber: "+91",
+  message: ""
 };
 export const Contact = (props) => {
   const [{ firstName, lastName, email, phoneNumber, message }, setState] = useState(initialState);
@@ -101,8 +104,9 @@ export const Contact = (props) => {
                         id="phoneNumber"
                         name="phoneNumber"
                         className="form-control"
-                        placeholder="Phone number ()"
+                        placeholder="Phone number "
                         required
+                        value={phoneNumber}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -174,7 +178,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
