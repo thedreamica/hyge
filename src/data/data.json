@@ -124,32 +124,32 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "https://i.imgur.com/1yPjbrB.jpg",
       "text": "\"They showed a deep understanding of our business with timely solutions. they are always available to answer any questions or concerns we may have\"",
       "name": "John Abraham"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "https://i.imgur.com/x5lQQmy.jpg",
       "text": "\"This team always meets our deadlines, and their coding services are top-notch. It's such a relief to have a partner we can trust when it comes to medical coding.\"",
       "name": "Chris Johnathan"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "https://i.imgur.com/fSPhUvm.jpg",
       "text": "\"Hyge has a team of highly skilled DevOps engineers who provided us with exceptional service. Their professionalism improves the overall efficiency of our systems.\"",
       "name": "Rajesh Sourav"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "https://i.imgur.com/0AfG3Z5.jpg",
       "text": "\"They made sure that our software was thoroughly tested and any issues were promptly addressed. We felt confident in their ability to deliver quality results.\"",
       "name": "Rochak Shetty"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "https://i.imgur.com/W6ocgoQ.jpg",
       "text": "\"Hyge team has expertise in SEO, PPC, and social media marketing, and it has helped us to reach new audiences and drive more traffic to our website.\"",
       "name": "Roshan Andrews"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "https://i.imgur.com/s4dR4vA.jpg",
       "text": "\"Their team has helped me identify new business opportunities, and increase my revenue and I look forward to continuing our partnership in the years to come.\"",
       "name": "Sanjay Kumar"
     }
